@@ -8,7 +8,8 @@
   function myFunction() {
     var url_string = window.location.href; //window.location.href
     var url = new URL(url_string);
-    var brad = url.searchParams.get("c");
+    var bradi = url.searchParams.get("c");
+    var brad = 1;
     if(brad==1){
 //      alert("c = 1");
       document.getElementById("obj").innerHTML = '<a-entity class="example" gltf-model="#backward" position="0 0 0" scale="0.7 0.7 0.7" rotation="0 0 0"></a-entity>';
